@@ -40,8 +40,8 @@ window.onscroll = () => {
 
 /* ================== Typed.js (Efek Ketikan) ================== */
 const typed = new Typed('.multiple-text', {
-    // Ganti string di bawah ini dengan profesi/keahlian Anda
-    strings: ['[Profesi Anda]', '[Keahlian Lain]', '[Minat Anda]'],
+    // MODIFIKASI: Mengganti string placeholder dengan teks dari HTML
+    strings: ['AI/ML Engineer', 'Data Scientist', 'Data Analyst'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
